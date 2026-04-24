@@ -3,11 +3,11 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo "Installing dependencies..."
+      - echo Installing
   build:
     commands:
-      - echo "Hello world"
-      - echo "Build phase succeeded!"
+      - echo Build started
+
 artifacts:
   files:
     - '**/*'
